@@ -1,3 +1,14 @@
 body {
     background-color: aqua;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+.logo{
+    margin-left: -10px;
 }
