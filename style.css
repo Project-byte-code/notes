@@ -1,14 +1,26 @@
 body {
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0px;
 }
 .navbar{
     border: 1px solid black;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
-    height: 40px;
+    height: 50px;
+    /* max-width: 700px; */
 }
-.logo{
-    margin-left: -10px;
+.nav-center{
+    display: flex;
+    gap:60px;
+    
+}
+.nav-center > * {
+    padding: 5px;
+    text-decoration: none;
+}
+.nav-center > *:hover{
+    border: 1px solid black;
+    border-radius: 2px;
 }
