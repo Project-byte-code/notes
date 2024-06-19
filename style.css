@@ -11,8 +11,6 @@ body {
     font-family: catamaran;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
 .catamaran-font {
     font-family: "Catamaran", sans-serif;
@@ -23,7 +21,7 @@ body {
 
 .navbar {
 
-    border: 2px solid black;
+    border: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -31,6 +29,7 @@ body {
     height: 70px;
     /* max-width: 700px; */
     background-color: #d9f0d4;
+    position: fixed;
 }
 
 .nav-center {
@@ -39,7 +38,7 @@ body {
 }
 
 .nav-center>* {
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     text-decoration: none;
 }
@@ -52,8 +51,27 @@ body {
 
 .logo {
     padding: 5px;
-    margin-left: 5px;
-    height: 70px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    height: 60px;
+}
+
+
+.nav-center {
+    display: flex;
+    gap: 60px;
+
+}
+
+.nav-center>* {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-center>*:hover {
+    border: 1px solid black;
+    border-radius: 2px;
+
 }
 
 
@@ -71,7 +89,7 @@ body {
 .boxes {
 
     align-items: center;
-    margin: 50px;
+    margin: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
@@ -115,23 +133,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 100px;
     /* max-width: 700px; */
 }
 
-.nav-center {
-    display: flex;
-    gap: 60px;
-
-}
-
-.nav-center>* {
-    padding: 5px;
-    text-decoration: none;
-}
-
-.nav-center>*:hover {
-    border: 1px solid black;
-    border-radius: 2px;
-
-}
