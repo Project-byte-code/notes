@@ -9,6 +9,7 @@ body {
     min-width:1200px;
 }
 .navbar{
+
     border: 2px solid black;
     width: 100%;
     display: flex;
@@ -87,4 +88,26 @@ body {
     width: 100%;
     border: 2px solid black;
     background-color: aqua;
+
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+    /* max-width: 700px; */
+}
+.nav-center{
+    display: flex;
+    gap:60px;
+    
+}
+.nav-center > * {
+    padding: 5px;
+    text-decoration: none;
+}
+.nav-center > *:hover{
+    border: 1px solid black;
+    border-radius: 2px;
+
 }
