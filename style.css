@@ -129,3 +129,23 @@ body {
     border-radius: 2px;
 
 }
+
+/* This CSS is for Bsc-it Semester 1 */
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-tableS1 {
+    border: black 3px solid;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    padding: 20px;
+    margin: 2%;
+}
+
+.content-tableS1 th {
+    font-size: 30px;
+} 
