@@ -9,7 +9,8 @@ body {
     margin: 0px;
     min-width: 1200px;
     font-family: catamaran;
-    background-color: rgb(146, 141, 141);
+    background-image:url('notes/Asset/logo.png') ;
+    object-fit: cover;
 }
 
 
@@ -128,6 +129,7 @@ color: black;
     height: 100vh;
     width: 100%;
     border: 2px solid black;
+    border-bottom: none;
 
 }
 
@@ -145,7 +147,8 @@ color: black;
     width: 250px;
     border-radius: 15px;
     text-align: center;
-    background-color:pink;
+    background-color:rgb(133, 130, 130);
+    
 }
 
 .box2 {
@@ -153,7 +156,7 @@ color: black;
     width: 250px;
     border-radius: 15px;
     text-align: center;
-    background-color: pink;
+    background-color: rgb(133, 130, 130);
 }
 
 /* .box3 {
@@ -189,17 +192,13 @@ color: black;
     background-color: rgb(229, 97, 97);
 }
 
-
-
-
-
-
 .last-container {
     width: 100%;
     border: 2px solid black;
+    border-top: none;
     background-color: #d9f0d4;
     display: flex;
-    height: 100px;
+    height: 70px;
     
     /* max-width: 700px; */
 }
