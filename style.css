@@ -9,7 +9,7 @@ body {
     margin: 0px;
     min-width: 1200px;
     font-family: catamaran;
-    background-image:url('notes/Asset/logo.png') ;
+    background-image: url('notes/Asset/logo.png');
     object-fit: cover;
 }
 
@@ -30,7 +30,7 @@ body {
     height: 70px;
     /* max-width: 700px; */
     background-color: #d9f0d4;
-    position: fixed;
+
 }
 
 .nav-center {
@@ -116,23 +116,6 @@ body {
     /* max-width: 700px; */
 }
 
-.nav-center {
-    display: flex;
-    gap: 60px;
-
-}
-
-.nav-center>* {
-    padding: 5px;
-    text-decoration: none;
-}
-
-.nav-center>*:hover {
-    border: 1px solid black;
-    border-radius: 2px;
-
-}
-
 /* This CSS is for Bsc-it Semester 1 */
 .content {
     display: flex;
@@ -151,4 +134,4 @@ body {
 
 .content-tableS1 th {
     font-size: 30px;
-} 
+}
