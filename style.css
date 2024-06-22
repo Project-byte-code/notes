@@ -32,6 +32,7 @@ body {
     /* max-width: 700px; */
     background-color: #d9f0d4;
     position: fixed;
+    z-index: 1;
 }
 
 .nav-center {
@@ -84,7 +85,6 @@ body {
     /* padding: 16px; */
     font-size: 16px;
     border: 2px solid transparent;
-    
   }
   
   .dropdown {
@@ -126,19 +126,18 @@ color: black;
 
 .main-container {
     flex: 1;
-    /* height: 200vh; */
+    height: 100vh;
     width: 100%;
     border: 2px solid black;
     border-bottom: none;
     background-image: url(/notes/Asset/bg.jpg);
     background-size:cover;
-
 }
 
 
 .boxes {
     align-items: center;
-    margin: 120px;
+    margin: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -205,24 +204,3 @@ color: black;
 
 
 
-/* This is all sem page */
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 70px;
-}
-
-.content-tableS1 {
-    border: black 3px solid;
-    border-radius: 5px;
-    width: 70%;
-    height: 80%;
-    padding: 20px;
-    margin: 2%;
-}
-
-.content-tableS1 th {
-    font-size: 30px;
-}
