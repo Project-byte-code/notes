@@ -161,17 +161,7 @@ color: black;
     background-color: rgb(133, 130, 130);
 }
 
-/* .box3 {
-    height: 250px;
-    width: 250px;
-    border: 2px solid black;
-}
 
-.box4 {
-    height: 250px;
-    width: 250px;
-    border: 2px solid black;
-} */
 
 
 .min-div{
@@ -194,15 +184,23 @@ color: black;
     background-color: rgb(229, 97, 97);
 }
 
+/* footer */
+
+.footer-last{
+    background-color: #d9f0d4;
+
+}
+
 .last-container {
     width: 100%;
-    border: 2px solid black;
-    border-top: none;
-    background-color: #d9f0d4;
     display: flex;
+    justify-content: center;
+    align-items: end;
     height: 100px;
     
-    /* max-width: 700px; */
+}
+.bottom-anchor{
+    text-align: center;
 }
 
 
