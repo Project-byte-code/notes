@@ -9,6 +9,42 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+
+<style>
+
+
+.semesters{
+  display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-tableS1 {
+    border: black 3px solid;
+    border-radius: 5px;
+    width: 70%;
+    height: 80%;
+    padding: 20px;
+    margin: 2%;
+    backdrop-filter:blur(10px);
+    background-color: rgba(131, 201, 223, 0.299);
+}
+
+.content-tableS1 th {
+    font-size: 30px;
+}
+
+
+
+</style>
+
 </head>
 
 <body>
@@ -57,10 +93,67 @@
 
     <div class="main-container">
 
-        <p style="color: black; margin-top: 100px;  text-align: center; font-size: 30px;">!!..Welcome to StudyHub..!!</p>
+       <div class="semesters">
 
-        <h1>Offical BSc-IT Page</h1>
-        <h2>Semester 1</h2>
+        <table class="content-tableS1">
+          <tr>
+              <th colspan="2">Notes</th>
+          </tr>
+          <tr>
+              <td>Imperative Programming</td>
+              <td><button>View</button></td>
+          </tr>
+          <tr>
+              <td>Digital Electronics</td>
+              <td><button>View </button></td>
+          </tr>
+          <tr>
+              <td>Operating Systems</td>
+              <td><button>View </button></td>
+          </tr>
+          <tr>
+              <td>Discrete Mathematics</td>
+              <td><button>View </button></td>
+          </tr>
+          <tr>
+              <td>Communication Skills</td>
+              <td><button>View </button></td>
+          </tr>
+
+      </table>
+
+
+
+      <table class="content-tableS1">
+        <tr>
+            <th colspan="2">Practicals</th>
+        </tr>
+        <tr>
+            <td>Imperative Programming</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>Digital Electronics</td>
+            <td><button>View </button></td>
+        </tr>
+        <tr>
+            <td>Operating Systems</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>Discrete Mathematics</td>
+            <td><button>View</button></td>
+        </tr>
+        <tr>
+            <td>Communication Skills</td>
+            <td><button>View</button></td>
+        </tr>
+
+    </table>
+
+       </div>
+
+       
      
     </div>
   </main>

@@ -32,6 +32,7 @@ body {
     /* max-width: 700px; */
     background-color: #d9f0d4;
     position: fixed;
+    z-index: 1;
 }
 
 .nav-center {
@@ -136,7 +137,7 @@ color: black;
 
 .boxes {
     align-items: center;
-    margin: 120px;
+    margin: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
