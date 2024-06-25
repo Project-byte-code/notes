@@ -196,6 +196,11 @@ color: black;
     justify-content: center;
     align-items: end;
     height: 100px;
+    margin: -74px;
+    
+}
+.second-last-container{
+    margin-left: 10px;
     
 }
 .bottom-anchor{
