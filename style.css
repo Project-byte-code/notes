@@ -30,7 +30,8 @@ body {
     height: 70px;
     /* max-width: 700px; */
     background-color: #d9f0d4;
-
+    position: fixed;
+    z-index: 1;
 }
 
 .nav-center {
@@ -52,9 +53,74 @@ body {
 
 .logo {
     padding: 5px;
-    margin-left: 5px;
-    height: 70px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    height: 60px;
 }
+
+
+.nav-center {
+    display: flex;
+    gap: 60px;
+
+}
+
+.nav-center>* {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-center>*:hover {
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    /* padding: 16px; */
+    font-size: 16px;
+    border: 2px solid transparent;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(28, 187, 187);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 1;
+     /* margin-top: 5px;  */
+    border-radius: 10px; 
+    
+  }
+  
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:yellow;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+
+a{
+text-decoration: none; 
+color: black;
+}
+
 
 
 .main-container {
@@ -62,16 +128,15 @@ body {
     height: 100vh;
     width: 100%;
     border: 2px solid black;
-    background-color: antiquewhite;
-    background-image: url(/notes/Asset/bg.jpeg);
-    background-size: cover;
+    border-bottom: none;
+    background-image: url(/notes/Asset/bg.jpg);
+    background-size:cover;
 }
 
 
 .boxes {
     align-items: center;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
@@ -104,28 +169,10 @@ body {
     border: 1px solid black;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
+    height: 100px;
+    
     /* max-width: 700px; */
 }
 
-/* This CSS is for Bsc-it Semester 1 */
-.content {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
-.content-tableS1 {
-    border: black 3px solid;
-    border-radius: 5px;
-    width: 70%;
-    height: 80%;
-    padding: 20px;
-    margin: 2%;
-}
 
-.content-tableS1 th {
-    font-size: 30px;
-}
