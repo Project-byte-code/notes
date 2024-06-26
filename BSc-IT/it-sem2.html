@@ -10,53 +10,49 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
 
-<style>
+  <style>
+    .semesters {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-top: 200px;
+    }
 
+    .content {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
 
-.semesters{
-  display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 200px;
-}
+    .content-tableS1 {
+      border: black 3px solid;
+      border-radius: 5px;
+      width: 70%;
+      height: 80%;
+      padding: 20px;
+      margin: 2%;
+      backdrop-filter: blur(10px);
+      background-color: rgba(131, 201, 223, 0.299);
+    }
 
-.content {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.content-tableS1 {
-    border: black 3px solid;
-    border-radius: 5px;
-    width: 70%;
-    height: 80%;
-    padding: 20px;
-    margin: 2%;
-    backdrop-filter:blur(10px);
-    background-color: rgba(131, 201, 223, 0.299);
-}
-
-.content-tableS1 th {
-    font-size: 30px;
-}
-
-
-
-</style>
+    .content-tableS1 th {
+      font-size: 30px;
+    }
+  </style>
 
 </head>
 
 <body>
   <div class="navbar">
     <img src="/notes/Asset/logo2.png" alt="logo" class="logo" />
-   
+
     <div class="nav-center">
-      <div class="home"><a href="/notes/index.html" style="text-decoration: none; color: black; font-weight: bold;" target="_self">Home</a>
+      <div class="home"><a href="/notes/index.html" style="text-decoration: none; color: black; font-weight: bold;"
+          target="_self">Home</a>
       </div>
 
       <div class="dropdown" style="padding-top: 7px;">
-        <button class="dropbtn" style="font-size: 17px; font-weight:600;" >Bsc-IT</button>
+        <button class="dropbtn" style="font-size: 17px; font-weight:600;">Bsc-IT</button>
         <div class="dropdown-content">
           <a href="/notes/BSc-IT/it-sem1.html">Sem 1</a>
           <a href="/notes/BSc-IT/it-sem2.html">Sem 2</a>
@@ -64,12 +60,12 @@
           <a href="/notes/BSc-IT/it-sem4.html">Sem 4</a>
           <a href="/notes/BSc-IT/it-sem5.html">Sem 5</a>
           <a href="/notes/BSc-IT/it-sem6.html">Sem 6</a>
-          
+
         </div>
       </div>
 
       <div class="dropdown" style="padding-top: 7px;">
-        <button class="dropbtn" style="font-size: 17px; font-weight:600;" >Bsc-Cs</button>
+        <button class="dropbtn" style="font-size: 17px; font-weight:600;">Bsc-Cs</button>
         <div class="dropdown-content">
           <a href="/notes/BSc-CS/cs-sem1.html">Sem 1</a>
           <a href="/notes/BSc-CS/cs-sem2.html">Sem 2</a>
@@ -77,11 +73,11 @@
           <a href="/notes/BSc-IT/it-sem4.html">Sem 4</a>
           <a href="/notes/BSc-CS/cs-sem5.html">Sem 5</a>
           <a href="/notes/BSc-CS/cs-sem6.html">Sem 6</a>
-          
+
         </div>
       </div>
 
-      
+
     </div>
 
     <input type="text" placeholder="Search.." name="search" style="margin-right:30px; padding: 5px 25px 5px 25px;">
@@ -93,40 +89,67 @@
 
     <div class="main-container">
 
-       <div class="semesters">
+      <div class="semesters">
 
         <table class="content-tableS1">
           <tr>
-              <th colspan="2">Bsc-IT Semester 2</th>
+            <th colspan="2">Bsc-IT Semester 2</th>
           </tr>
           <tr>
-              <td>Object Oriented Programming</td>
-              <td><button>View Notes</button></td>
+            <td>Object Oriented Programming</td>
+            <td><button>View Notes</button></td>
           </tr>
           <tr>
-              <td>Microprocessor Architecture</td>
-              <td><button>View Notes</button></td>
+            <td>Microprocessor Architecture</td>
+            <td><button>View Notes</button></td>
           </tr>
           <tr>
-              <td>Web Programming</td>
-              <td><button>View Notes</button></td>
+            <td>Web Programming</td>
+            <td><button>View Notes</button></td>
           </tr>
           <tr>
-              <td>Numerical and Statistical Methods</td>
-              <td><button>View Notes</button></td>
+            <td>Numerical and Statistical Methods</td>
+            <td><button>View Notes</button></td>
           </tr>
           <tr>
-              <td>Green Computing</td>
-              <td><button>View Notes</button></td>
+            <td>Green Computing</td>
+            <td><button>View Notes</button></td>
           </tr>
 
-      </table>
+        </table>
+
+        <table class="content-tableS1">
+          <tr>
+            <th colspan="2">Practicals</th>
+          </tr>
+          <tr>
+            <td>Object Oriented Programming</td>
+            <td><button>View</button></td>
+          </tr>
+          <tr>
+            <td>Microprocessor Architecture</td>
+            <td><button>View </button></td>
+          </tr>
+          <tr>
+            <td>Web Programming</td>
+            <td><button>View</button></td>
+          </tr>
+          <tr>
+            <td>Numerical and Statistical Methods</td>
+            <td><button>View</button></td>
+          </tr>
+          <tr>
+            <td>Green Computing</td>
+            <td><button>View</button></td>
+          </tr>
+
+        </table>
 
 
-       </div>
+      </div>
 
-       
-     
+
+
     </div>
   </main>
 
@@ -134,11 +157,13 @@
 
   <footer>
 
-    <div class="last-container" style="align-items: end; justify-content: center; text-align: center;" >
-     <div><p >© 2024 StudyHub - github.com</p></div>
-     
-     
-        
+    <div class="last-container" style="align-items: end; justify-content: center; text-align: center;">
+      <div>
+        <p>© 2024 StudyHub - github.com</p>
+      </div>
+
+
+
 
     </div>
   </footer>
