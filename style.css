@@ -196,12 +196,28 @@ color: black;
     justify-content: center;
     align-items: end;
     height: 100px;
-    margin: -74px;
     
 }
 .second-last-container{
     margin-left: 10px;
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+
     
+}
+.about-us{
+    width: 610px;
+    display: inline-block;
+    word-wrap: break-word;
+    padding: 10px;
+    position: absolute;
+    /* border: 2px solid black; */
+    margin-top: 2px;
+}
+.about-us h2{
+    text-align: center;
+    border: 2px solid black;
 }
 .bottom-anchor{
     text-align: center;
