@@ -5,8 +5,7 @@
 }
 
 body {
-    /* background-color: aqua; */
-    margin: 0px;
+    margin-top: 75px;
     min-width: 1200px;
     font-family: catamaran;
     background-image: url('notes/Asset/logo.png');
@@ -23,16 +22,15 @@ body {
 
 .navbar {
 
-    border: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    /* max-width: 700px; */
     background-color: #d9f0d4;
     position: fixed;
     z-index: 1;
+    margin-top: -70px;
 }
 
 .nav-center {
@@ -60,22 +58,7 @@ body {
 }
 
 
-.nav-center {
-    display: flex;
-    gap: 60px;
 
-}
-
-.nav-center>* {
-    padding: 5px;
-    text-decoration: none;
-}
-
-.nav-center>*:hover {
-    border: 1px solid black;
-    border-radius: 2px;
-
-}
 
 
 /* Dropdown Button */
