@@ -196,6 +196,7 @@ a {
 /* footer */
 footer {
     background-color: #54af9c;
+    
 }
 
 .last-containe{
@@ -207,7 +208,6 @@ footer {
     justify-content: center;
     align-items: end;
     height: 100px;
-
 }
 
 .second-last-container {
@@ -224,7 +224,7 @@ footer {
     display: inline-block;
     word-wrap: break-word;
     padding: 10px;
-    position: absolute;
+    /* position: absolute; */
     margin-top: 2px;
 }
 
@@ -235,6 +235,7 @@ footer {
 
 .about-us p {
     text-decoration: underline;
+    text-align: justify;
 }
 
 .bottom-anchor {
@@ -267,16 +268,17 @@ footer {
       margin: 2%;
       backdrop-filter: blur(10px);
       background-color: rgba(131, 201, 223, 0.299);
+      min-width: 50vw;
     }
 
     .content-tableS1 th {
       font-size: 20px;
+      text-decoration: underline;
     }
 
     .main-container-sem-notes{
       display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      /* align-content: center ; */
-      /* height: 130vh; */
+      flex-direction: column;
+      align-items: center;
+    
     }
